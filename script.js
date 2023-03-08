@@ -118,6 +118,19 @@ elBtn[16].addEventListener("click", (evt) => {
     }
 });
 
+elBtn[17].addEventListener("click", (evt) => {
+    if (!numberOne.includes(".")) {
+        if (numberOne.length < 15) {
+            numberOne = numberOne + ".";
+            numberTwo = numberTwo + ".";
+            number = number + ".";
+            value.innerHTML = number;
+        } else {
+            error = "the maximum number has been reached";
+        }
+    }
+});
+
 let numOne;
 let numTwo;
 let math;

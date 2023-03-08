@@ -5,6 +5,9 @@
     &__cals {
         max-width: 360px;
         margin: 0 auto;
+        padding: 15px 10px;
+        border: 2px solid rgb(12, 21, 51);
+        border-radius: 10px;
     }
     &__value {
         max-width: 360px;
@@ -13,7 +16,7 @@
         padding: 8px 16px;
         margin: 0 auto 10px;
         overflow: hidden;
-        border: 1px solid #202124;
+        border: 1px solid rgb(35, 152, 225);
         border-radius: 5px;
         text-align: right;
         font-size: 18px;
@@ -23,7 +26,7 @@
             background-color: #eeeeee82;
         }
         &:active {
-            border: 1px solid rgb(35, 152, 225);
+            border: 1px solid #202124;
         }
     }
     &__list {
@@ -51,5 +54,29 @@
             background-color: rgba(66, 66, 66, 0.253);
             border: 1px solid rgb(35, 152, 225);
         }
+    }
+    &__bn {
+        background-color: rgba(0, 255, 255, 0.305);
+        &:active {
+            border: 1px solid rgba(35, 152, 225, 0.511);
+        }
+    }
+    &__clr {
+        background-color: rgba(255, 0, 0, 0.6);
+        &:active {
+            background-color: rgba(165, 42, 42, 0.5);
+        }
+    }
+    &__rt {
+        background-color: rgba(0, 0, 255, 0.6);
+        &:active {
+            background-color: rgba(0, 0, 255, 0.45);
+        }
+    }
+    &__small {
+        display: block;
+        text-align: center;
+        font-size: 8px;
+        opacity: 0.7;
     }
 }
